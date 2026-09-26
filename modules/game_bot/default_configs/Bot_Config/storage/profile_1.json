@@ -1,0 +1,112 @@
+{
+  "_configs": {
+    "targetbot_configs": {
+      "enabled": true,
+      "selected": "Gya"
+    },
+    "cavebot_configs": {
+      "enabled": true,
+      "selected": "Gya"
+    }
+  },
+  "autoReviveSkills": {
+    "onlyInBattle": true,
+    "minSkills": 0,
+    "enabled": false,
+    "itemId": 3077
+  },
+  "guildDaily": {
+    "enabled": false,
+    "interval": 5,
+    "ticketId": 0,
+    "autoBuy": true,
+    "element": "water"
+  },
+  "lastUse48961": 1788533291,
+  "screenIcons": {
+    "enabled": true
+  },
+  "autoUseItem": {
+    "itemId": 48961,
+    "lastUse": 1788717882,
+    "enabled": false,
+    "interval": 3600,
+    "avoidPz": true,
+    "autoConfirm": true
+  },
+  "playerAlert": {
+    "sound": true,
+    "enabled": false,
+    "pauseCave": false,
+    "logoutOnPlayer": false,
+    "sameFloor": true,
+    "whitelist": ""
+  },
+  "messageAlert": {
+    "sound": true,
+    "enabled": false,
+    "pauseBot": false,
+    "ignoreSpells": true,
+    "whitelist": ""
+  },
+  "zoomConfig": {
+    "zoom": 12,
+    "enabled": true
+  },
+  "antiStaff": {
+    "sound": true,
+    "enabled": true,
+    "stopBot": true,
+    "logout": false,
+    "customKeywords": ""
+  },
+  "_icons": {
+    "screen_icon_cave": {
+      "y": 0.12,
+      "enabled": false,
+      "x": 0.015
+    },
+    "screen_icon_target": {
+      "y": 0.12,
+      "enabled": false,
+      "x": 0.065
+    }
+  },
+  "_macros": {
+    "": true,
+    "Auto Reconnect": false,
+    "Zoom Tela 15": true,
+    "Auto Use [48961] 1h": true,
+    "Auto Use Item 1hr": false
+  },
+  "autoCatch": {
+    "range": 5,
+    "targetList": "*",
+    "sections": [
+      {
+        "ballId": 0,
+        "corpses": []
+      },
+      {
+        "fallbackBallId": 0,
+        "corpses": [],
+        "ballId": 0
+      }
+    ],
+    "afterCombat": false,
+    "maxTries": 3,
+    "searchRange": 10,
+    "shiny": {
+      "ball1": 45310,
+      "ball2": 15650,
+      "ball3": 3552,
+      "inCombat": true,
+      "corpses": [],
+      "enabled": true
+    },
+    "enabled": true,
+    "catchAll": false,
+    "corpses": [],
+    "ballId": 0
+  }
+}

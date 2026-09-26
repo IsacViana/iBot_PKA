@@ -1,0 +1,69 @@
+# ====================================================================
+# .gitignore para iBot PokeAlliance
+# Envia apenas o que o cliente precisa: data, modules, exes, dlls, manifest.json
+# ====================================================================
+
+# 1. Backups, Ferramentas internas e Git portátil
+_BACKUPS/
+_obsolete_modules_backup/
+bot_config_plaintext_backup/
+_corrupt_bot_defaults_backup/
+_FERRAMENTAS_DEV/
+EDITAR_BOT_AQUI/
+objectbuilder/
+.git_portable/
+__pycache__/
+*.pyc
+*.bak
+*.original_bak
+sync.bat
+divugação.md
+
+# 2. Scripts e Atalhos .bat
+build_launcher.bat
+upload_to_git.bat
+PUBLICAR_ATUALIZACAO.bat
+LIMPAR_HISTORICO_GIT.bat
+SINCRONIZAR_LOCAL.bat
+decrypt_client.bat
+decrypt_pokealliance.bat
+COMO_USAR_O_BOT.txt
+decrypt/
+
+# 3. Executável do Launcher (ignora apenas pastas de build do PyInstaller)
+dist/
+build/
+dist_nuitka/
+dist_nuitka13/
+dist_test/
+*.build/
+*.dist/
+*.onefile-build/
+*.spec
+*.new
+*.update
+
+# Backups acidentais dentro da arvore publica do cliente
+data/images/ui/textedit%20backup.png
+
+# 4. Logs e temporários
+*.log
+*.tmp
+_update_launcher.bat
+launcher_settings.json
+*.session
+session.key
+
+# 5. Modo Desenvolvedor (Bypass e Testes Locais)
+PokeAlliance_DEV.exe
+dev_mode.key
+modules/game_bot/dev_mode.key
+build_dev_exe.bat
+license.dat
+modules/game_bot/license.dat
+modules/game_bot/session.key
+
+# 6. Painel Admin (Exclusivo Administrador)
+Gerenciador.exe
+Gerenciador_Contas_iBot.exe
+build_admin_exe.bat

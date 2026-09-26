@@ -1,0 +1,28 @@
+{
+  "settings": {
+    "activationCount": 6,
+    "trainerHealHp": 65,
+    "healerSlot": 2,
+    "healSpell": "m4",
+    "damageSlot": 3,
+    "reviveId": 3077
+  },
+  "targeting": [
+    {
+      "name": "*",
+      "regex": "^.*$",
+      "priority": 1,
+      "useAutoCombo": true,
+      "useAutoRevive": true,
+      "reviveOnCave": true,
+      "reviveDelay": 487,
+      "reviveId": 3077,
+      "comboMinDuration": 1602,
+      "comboMaxDuration": 4074,
+      "defensiveSpell": "9"
+    }
+  ],
+  "autoFightMode": true,
+  "humanCombatMovement": true,
+  "autoLoot": false
+}
