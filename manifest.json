@@ -1,14 +1,14 @@
 {
   "version": "1.0.8",
-  "timestamp": "2026-10-02T07:50:04Z",
+  "timestamp": "2026-10-02T09:06:09Z",
   "base_url": "https://raw.githubusercontent.com/IsacViana/iBot_PKA/main/",
   "total_files": 5986,
   "total_size_mb": 796.17,
   "core": {
     "version": "1.0.8",
     "filename": "core.exe",
-    "sha256": "36f086c7b51444baa673bf16614433e786bf29764a54d0e5e45d74ea7e01ccc1",
-    "size": 1053696,
+    "sha256": "5120284b2da0ea86dbb0b89514ac9cda35cbb3fffa561d0502c6d8c86a231871",
+    "size": 1142272,
     "url": "https://github.com/IsacViana/NightBot/raw/main/core.exe"
   },
   "launcher": {
@@ -3076,19 +3076,19 @@
       "size": 13672
     },
     "modules/game_bot/bot.otmod": {
-      "sha256": "3d032a87d1ab579b5671a3147d8a908d8c353b6987f94d0f69b2f4714f272f8c",
+      "sha256": "9781e9f8f65e92c497992fcf20e44f513660afc52e1e382bd4233ac1bdbd4b2d",
       "size": 200
     },
     "modules/game_bot/configs.png": {
-      "sha256": "4678842e32deb1f54d3fba0c32b8ddfdd002df722282bb7c162d034aa0d4a375",
+      "sha256": "1111631752463ffe6cfe412fa02528091102b292f1a55ecce02b6014bc204e4c",
       "size": 19959
     },
     "modules/game_bot/edit.otui": {
-      "sha256": "a9c459d53893cb2a40292edcdf77c80ab1228dd0a7704463d4a9a19dddc5b3ae",
+      "sha256": "1887c0f350c3eab240a9ca43ae944bbf3ef7a597e2e9ebc0588b9aedc3cb7fa9",
       "size": 1304
     },
     "modules/game_bot/scripts.png": {
-      "sha256": "d587a82216ebb839b5f2d467ca72447cdacd6513df4f44b4879d239947ee386d",
+      "sha256": "97a123533d46d03f5f1ca71adf67d2af363854cf88e629c615180c17e1ea372b",
       "size": 13728
     },
     "modules/game_bot/session_info.json": {
@@ -3100,92 +3100,92 @@
       "size": 243
     },
     "modules/game_bot/default_configs/Bot_Config/autocatch.lua": {
-      "sha256": "05a6ceddbae978aa56b2ce6a89949fc1dbe8f974d492314304f04d9fe45ff2c0",
+      "sha256": "b067b344bfc8b0deb352112a5381d47cfc21a59ad8b69d609944bc332c9b23ff",
       "size": 9930
     },
     "modules/game_bot/default_configs/Bot_Config/cavebot.lua": {
-      "sha256": "2abdaa7a1c098e693f22a877c7343fc172bfde3de555298e5fd4b856df05d8b3",
+      "sha256": "e1ebdb51f744e9c8f319d38989029e2074864d240e70202071345cddfc66f35a",
       "size": 391
     },
     "modules/game_bot/default_configs/Bot_Config/macros.lua": {
-      "sha256": "8ec5c4e26a05d2058661800f8987d11c4a939f20143fd90a5d7d87f62c0d1a20",
+      "sha256": "902e4fa110c603d998ea6da609d4feca188515f082534a4ee26722b6c87d4d1e",
       "size": 23877
     },
     "modules/game_bot/default_configs/Bot_Config/cavebot/actions.lua": {
-      "sha256": "63b3dac95f2664688dd7866043fd634c81565840dc651a342f94db3020878437",
+      "sha256": "c6af199c197636dd5f577e1bf100c953ca83e83e35b0ac9c48c3c0f41c46ba6f",
       "size": 10658
     },
     "modules/game_bot/default_configs/Bot_Config/cavebot/cavebot.lua": {
-      "sha256": "c923c8610bdf54a6f5e3dd5f617b9c7180f1c9799da420cb2d4923f91e9a8f57",
+      "sha256": "7fa393d0d7a2c4a7a9018e17c4e6b1b4336ff1c4057d236b0df378dd7acf97b8",
       "size": 2220
     },
     "modules/game_bot/default_configs/Bot_Config/cavebot/cavebot.otui": {
-      "sha256": "acb46ace2b5620d6d169d0101fe5a039548d19d0d132ba3d80028941b4db1c90",
+      "sha256": "305b10797e69143b91d6070a3ab2bdf9e077c6240b9e8bf1400f6d81dce4fd54",
       "size": 430
     },
     "modules/game_bot/default_configs/Bot_Config/cavebot/config.lua": {
-      "sha256": "d6e5e3663e51dd70903c14aa0f7fe58da490d3198ecf23365f0c27d6ad547672",
+      "sha256": "4fe42f2a3b7f99c638186756168ed32c0913a643050c1a5b5495b6d55d8000bc",
       "size": 832
     },
     "modules/game_bot/default_configs/Bot_Config/cavebot/config.otui": {
-      "sha256": "a3a892b5d4033e2729f8ba7cbe82847e80dec2c0bbd9263f0d737f5ba5930bf3",
+      "sha256": "a11bc578b4ab06edfdddc7e0d4b7ffe801fe7a8862413e672c3fd2e360aeaed8",
       "size": 362
     },
     "modules/game_bot/default_configs/Bot_Config/cavebot/editor.lua": {
-      "sha256": "bd83c5e8fae2f893bd72d2a0ea3186b697625d4a5150406db991c5d3b52daa9e",
+      "sha256": "8893fe176db75906d854054b9f312ed48fab6e4ffe2b28513208ea0d7004e47f",
       "size": 4123
     },
     "modules/game_bot/default_configs/Bot_Config/cavebot/editor.otui": {
-      "sha256": "bb2e77d8d44d19d714506bd15a661ab38ccebf45757c9b4213a7edc719eb564b",
+      "sha256": "9a1829db41d89090409a5487ebb9c5cfccea5209060c558ea25403a4d2c7db60",
       "size": 1632
     },
     "modules/game_bot/default_configs/Bot_Config/cavebot/example_functions.lua": {
-      "sha256": "5f8439e514ead9baf2658e90862640152d38206ad246d19f7df532f4ec84ec7e",
+      "sha256": "f962a211ba2728bc633582332b8a92eaa9392c2497901d7deff30eaab46cc170",
       "size": 1172
     },
     "modules/game_bot/default_configs/Bot_Config/cavebot/recorder.lua": {
-      "sha256": "412799251a7cd1eec60562cfe2cb24dab5d00b57af85549aac394f933cf5ee54",
+      "sha256": "b32ee2541eb463aa52126aa3363c5d401f21db664214f9238d2241823271cacd",
       "size": 613
     },
     "modules/game_bot/default_configs/Bot_Config/cavebot/walking.lua": {
-      "sha256": "185adba72d0b30a5eaf9ae71e2c12ecaed04b853f91c5a208cbc167e8ac799ed",
+      "sha256": "d70e4a7fa06ca2c23c9e1bad5271d1eb550670cf60b5e5b9f8c03fb52d3a82d3",
       "size": 1826
     },
     "modules/game_bot/default_configs/Bot_Config/targetbot/creature.lua": {
-      "sha256": "925fff6e4527addbcebbc4e955b15ab358e84c74c9bda046d0fd07ab0d45cf99",
+      "sha256": "e08c0c76168f10bb765ad1d7a246beba894cc0931ccb15843eac4fd0a8c6493e",
       "size": 2910
     },
     "modules/game_bot/default_configs/Bot_Config/targetbot/creature_attack.lua": {
-      "sha256": "b98627c1c5a19739cc3aea0530db7f7ffe705170ef0d899ddb8fd2108b4d766c",
+      "sha256": "10ce160a22c345024fc200f946dfb053facdfecfd9daddb9244e8245b51d66d5",
       "size": 1848
     },
     "modules/game_bot/default_configs/Bot_Config/targetbot/creature_editor.lua": {
-      "sha256": "8c2fca95507775f66546105e1ab4bb9805d05402d117e9971ed6d9e76ae6ae2a",
+      "sha256": "a10756c199d8d55b1cdcf08a134e13c79f23e2ca03f89cda7ef18c643c98fa35",
       "size": 1243
     },
     "modules/game_bot/default_configs/Bot_Config/targetbot/creature_editor.otui": {
-      "sha256": "c07cbc3b1e75b8d9fc72a506172af7bfceb75852e67ea00b95a6e28848c9c920",
+      "sha256": "5fc4a76722480b8290e4c08ad145931a0cd0649b0c6cf4b696199aa352d7dd33",
       "size": 750
     },
     "modules/game_bot/default_configs/Bot_Config/targetbot/creature_priority.lua": {
-      "sha256": "97ef7646bb63f2951aa66afd3b8016d02a98762ba41eb840b612b2522dabdd71",
+      "sha256": "54c467e841e57019bf20298b0fa64258a35b84e74e655527c19222085fa45f43",
       "size": 342
     },
     "modules/game_bot/default_configs/Bot_Config/targetbot/target.lua": {
-      "sha256": "2df29eed39ba4888b0414e2b423691321c1e56a0d6e3f0c86e077fc003ff0a70",
+      "sha256": "5da82ad273e5687e3fca6f79995e5b8a76e341e3b3ce90f72ef760f671cb155f",
       "size": 33094
     },
     "modules/game_bot/default_configs/Bot_Config/targetbot/target.otui": {
-      "sha256": "7ab81efcae971089fb094b95420c58c2153ea255c6b044ebdf893a8e2f83178f",
+      "sha256": "56e386123a01c01243c7b8f597fdea508062a3f522835b53992de80a970806e2",
       "size": 2106
     },
     "modules/game_bot/images/bot.png": {
-      "sha256": "b74329441952a1e230b08d1c922dd59acfc4f4b902916068580e63b0fc90fc6e",
+      "sha256": "d2392378665a2778d0526bb8e650ae8e0231fb17b614aaff1aaeb147e0d8381a",
       "size": 415
     },
     "modules/game_bot/rsc/d9/asset.dat": {
-      "sha256": "0981cdc748b57e5092f8c17d0e1829618d7dac756cab8a8ef085c8adab54f0db",
-      "size": 196
+      "sha256": "7f3ed46d22c87db993e1eb4df88023e274f3461ae4097b2574327772f8b523c9",
+      "size": 195
     },
     "modules/game_bot/ui/gen_01b662f93d.otui": {
       "sha256": "571f1b2f6bc23e158fe33bb6dc750a82770b1f47b2c899012aca9c1d9e2c33fa",
@@ -3204,7 +3204,7 @@
       "size": 616
     },
     "modules/game_bot/ui/gen_142cc4c9fb.otui": {
-      "sha256": "b0258961981e119f5c51793f72f1d16dff654af5e5ec18083d3b8d5a35be8a1d",
+      "sha256": "0d312ad74a371afd63511367b66e0f30326c234b1babe844e90da7c89de380b7",
       "size": 1007
     },
     "modules/game_bot/ui/gen_15af7e3ff9.otui": {
@@ -3224,7 +3224,7 @@
       "size": 1552
     },
     "modules/game_bot/ui/gen_21dc9922a7.otui": {
-      "sha256": "93a3dd1e20fb4038aac86a58483045bd09058f2ca313c39ef6d832bf1823f35e",
+      "sha256": "a066c31d250ff23e7e4c625c1f3cef019f6911f66e6545125a14db1b1ef423b3",
       "size": 1550
     },
     "modules/game_bot/ui/gen_224721f008.otui": {
@@ -3232,7 +3232,7 @@
       "size": 90
     },
     "modules/game_bot/ui/gen_243a7c9610.otui": {
-      "sha256": "6184f429f8d03ed7e879faa85b4345fcef6631e76ce5258ae79341a15c8ba779",
+      "sha256": "d9da95278778032d4986fb0bc7f3426a4260756a7c7da2f25e5e2809149ef9f1",
       "size": 211
     },
     "modules/game_bot/ui/gen_288b519c9d.otui": {
@@ -3240,7 +3240,7 @@
       "size": 379
     },
     "modules/game_bot/ui/gen_2cbdc0472f.otui": {
-      "sha256": "ce62616096d292019372ad6dad12408cd8b51efd38f52d04d31ac2cedf6fe596",
+      "sha256": "5869b36ba2ea77e480c76551610f6c34ed14dd9c73286e60a51b07865b422101",
       "size": 207
     },
     "modules/game_bot/ui/gen_2e4fc3e2a6.otui": {
@@ -3264,7 +3264,7 @@
       "size": 209
     },
     "modules/game_bot/ui/gen_4630d9e746.otui": {
-      "sha256": "61ad32a2621d28973865df36ee931f1b60987969d651817bf29ae373c5844231",
+      "sha256": "c4386e34808172fe3006d1b041cea82ac2208e1edacbcacb000816e7242bd832",
       "size": 380
     },
     "modules/game_bot/ui/gen_480d0a7c67.otui": {
@@ -3276,7 +3276,7 @@
       "size": 212
     },
     "modules/game_bot/ui/gen_4c977d7213.otui": {
-      "sha256": "b410778e498d4f175341db7d101bb78079329aa1820fe11aea77ea422815000f",
+      "sha256": "208e3c50017c86ef0d149c6c12b26feff56e85082474e7b431ede71ba9856aa5",
       "size": 438
     },
     "modules/game_bot/ui/gen_4f90cdcfc9.otui": {
@@ -3284,15 +3284,15 @@
       "size": 204
     },
     "modules/game_bot/ui/gen_5dc578efb7.otui": {
-      "sha256": "c6b48715a65ce659c3b27d4b5c3a5dc0f2645ad99b6de1af491478d43c2b1268",
+      "sha256": "b863f87413c8fbd1128026df061b13ad98b7a3d6974c3b8757b35915d589a9ff",
       "size": 215
     },
     "modules/game_bot/ui/gen_62cac004df.otui": {
-      "sha256": "77c8b119b98b4ff1d79dbeca7e1a7dc17de87486acadd043d17b95a7f8a94673",
+      "sha256": "3d024ff6e8ebaf64512c314f3eb93559d06176b4cb2732c3214183105788af81",
       "size": 578
     },
     "modules/game_bot/ui/gen_6791401a9e.otui": {
-      "sha256": "365a4de6276f35ec18ce3d5414790cf34052fb76b2d0b77b783a699eb495cdb2",
+      "sha256": "412e6e3f0eece554bd94d1bdd32e78aa17fba29d30bfe01d29c55aca62fff285",
       "size": 92
     },
     "modules/game_bot/ui/gen_68b0fb0bd4.otui": {
@@ -3312,7 +3312,7 @@
       "size": 210
     },
     "modules/game_bot/ui/gen_7381a4fee2.otui": {
-      "sha256": "7d9422968f9f6d83ed9499ea9d9e6f3c9a53155fa3fcd29123eabddf5a974ade",
+      "sha256": "bbb0f9ac181702af67d0cbbc5af72eced28b18198c15daa4c93008592d8fd01d",
       "size": 520
     },
     "modules/game_bot/ui/gen_7728e611fe.otui": {
@@ -3340,7 +3340,7 @@
       "size": 207
     },
     "modules/game_bot/ui/gen_8b88ff666f.otui": {
-      "sha256": "60b11ea6c86d2e5ea7fc172630f14eb9e4b113af7ae4f1d9c768dfec0fd556ff",
+      "sha256": "2710e19939640c2e80b241f6966bbc0572519323913d793b403a80309386ac5b",
       "size": 204
     },
     "modules/game_bot/ui/gen_8df55ec790.otui": {
@@ -3364,11 +3364,11 @@
       "size": 1445
     },
     "modules/game_bot/ui/gen_9c96f0efab.otui": {
-      "sha256": "0dd4102723ae7fd0b7963ebe56cc74816fe2a0bfc401ab7105b835bb6908b95c",
+      "sha256": "426814cf0fd491c0d4a79cb05808e08e43b009730e26e810714aae9334618ae7",
       "size": 689
     },
     "modules/game_bot/ui/gen_a13bb09004.otui": {
-      "sha256": "197f6f58fbf18c353f6cca7dd66d32a56baf7c95beae97b48c7f0a0a0efdaab4",
+      "sha256": "d7bb19e4d6941b6e3b34ecaebeda728b25de28733be706a68ba7eee55a26e41c",
       "size": 213
     },
     "modules/game_bot/ui/gen_a886552aec.otui": {
@@ -3376,7 +3376,7 @@
       "size": 206
     },
     "modules/game_bot/ui/gen_ac500e172e.otui": {
-      "sha256": "57d47325f5ed91b44b07566626de8eca4b4caf4a4dba8c79405a9f342ae4053a",
+      "sha256": "4b6ba57cf9f160caf5db093cae7c9e75ed4b575e1f31a37c47bf0a4f7e33794b",
       "size": 410
     },
     "modules/game_bot/ui/gen_af51303949.otui": {
@@ -3396,11 +3396,11 @@
       "size": 1491
     },
     "modules/game_bot/ui/gen_b3624fcf94.otui": {
-      "sha256": "0093f07ee27edbe6f588b8c169be14ddf8504310903fe314afd9cff206b8e0b0",
+      "sha256": "c15dc34d7f1af3cae4ed8deebe4f91cf92ef20a9932cade2c6811965855271e4",
       "size": 2051
     },
     "modules/game_bot/ui/gen_b698a70fdb.otui": {
-      "sha256": "94c2c499c22a246f12ec64b5370c2cf1ffedaa9d70427daebb67cea50c8339cf",
+      "sha256": "9a449cbcf0aa778899604c99824dfcf1c99f45daab9f7e64035eb502523730d8",
       "size": 190
     },
     "modules/game_bot/ui/gen_bb3e2a900c.otui": {
@@ -3416,11 +3416,11 @@
       "size": 154
     },
     "modules/game_bot/ui/gen_c88867629c.otui": {
-      "sha256": "40fdf635b59444d19ace6aab1e709e2a9ebe91702c0ed39ec6d07ea9a54dddc4",
+      "sha256": "3cdd4ed877d92a3958ff86135eab784683cee87c9cd31c0d0af4d55e9f3e7424",
       "size": 556
     },
     "modules/game_bot/ui/gen_caa97f3d43.otui": {
-      "sha256": "c88b6ed6a384b72195eb39aba27e479a6946855c192abda91ad6495034259519",
+      "sha256": "4763efc5a895d8ede1aab81cbfc3458142ae33cadbe68cee8c5b6e37a3b49496",
       "size": 595
     },
     "modules/game_bot/ui/gen_cc8237d6ae.otui": {
@@ -3432,7 +3432,7 @@
       "size": 200
     },
     "modules/game_bot/ui/gen_d5405aed28.otui": {
-      "sha256": "d259b89b5d1468a074aacb3149df119f7f8044ab5d0baa88e52918f899c2890e",
+      "sha256": "38d43e33480295f62c3cd1d748e7bf0924cb7b1c50233f832d4f0f42ff966fa9",
       "size": 206
     },
     "modules/game_bot/ui/gen_dc36a76211.otui": {
@@ -3476,7 +3476,7 @@
       "size": 184
     },
     "modules/game_bot/ui/gen_f90c745b0e.otui": {
-      "sha256": "6ec723277daf9d6b5e9e1d3205d35b33c9e4b8a93cbbc5fdc1332a140fd12f5d",
+      "sha256": "2b75777c8eea8a623f005987a5aa65aceadf606f78fb663d49d940b2b6a72a0c",
       "size": 476
     },
     "modules/game_bot/ui/gen_fb54b68dea.otui": {
@@ -5431,8 +5431,8 @@
       "sha256": "7279d7d620e1c4a157dd0eb4aa34f0ec4d0db9c6f1304b028d1c2021614d674c",
       "size": 1198
     },
-    "modules/game_interface/rsv/c7/20b8fb2fbbf32fe05f05c8de.dat": {
-      "sha256": "c7bfaca34846809e953d7fa5913693f8cb149cd720f085fada086d1a0e63798b",
+    "modules/game_interface/rsv/c7/58cd8b2d22e76c3e33dd2e25.dat": {
+      "sha256": "c76329d513b26ba3fafdc3a17a45bd730713651d300b7c0f552eefe35dd301fe",
       "size": 22861
     },
     "modules/game_interface/styles/countwindow.otui": {
@@ -8299,13 +8299,13 @@
       "sha256": "5b7bfe3c756d49970ba999ba9ca121a17c796f9ab6697fa0b092f475b15980b0",
       "size": 141
     },
-    "modules/game_things/rsv/3a/2e69f8bad05dad3207b1f0d5.dat": {
-      "sha256": "3a97cb430d1d1b1daf953a3841ab7d9ac2056e5bf92a1a1daa6bafb25cb87594",
-      "size": 20381
+    "modules/game_things/rsv/06/150c8084acf17d388a1b4ec1.dat": {
+      "sha256": "06a54c76f201ba2738cdf92048bd1e39291cb95d0767478d870316eecb3f9023",
+      "size": 683
     },
-    "modules/game_things/rsv/8e/b152b2f3a387c7ede69b6620.dat": {
-      "sha256": "8e7d428028179e5cbb4c0b441220786d654ecbf50f43ee397ebea7514f0aa3e5",
-      "size": 681
+    "modules/game_things/rsv/54/1756b9907299e34ab54f7682.dat": {
+      "sha256": "542af95d1330e3e8f7757c83f416e78980e29327180f0d379a6e8ca2bcd0493c",
+      "size": 20386
     },
     "modules/game_topbar/topbar.lua": {
       "sha256": "1f30e8435bcd0ced9b95308c38838eabe899aebfec62d1649bf8df3f42440b17",
@@ -22227,8 +22227,8 @@
       "sha256": "8ec5f9baf49fff046b76b9cb581e7920eaf68ab4423bddc82f2de861a8118ec3",
       "size": 2672
     },
-    "data/images/ui/rsv/16/3ce5a2f7d1da3637a730eec3.dat": {
-      "sha256": "169d8398c69c0d0beb3711a36effad0c018f3267dbf9d37fdb376e4f38726e88",
+    "data/images/ui/rsv/f3/8c082703286b772e0c879f52.dat": {
+      "sha256": "f3a658b4f03aeab01fca2b781a0a69d1e25a1751040103c25921f3b698c2a595",
       "size": 16242
     },
     "data/images/ui/scrollbar/slider.png": {
@@ -23959,8 +23959,8 @@
       "sha256": "12e67a65ebf7c8d559f67a76e409ef098515d4448d830941a8a8b11d7f2db5ab",
       "size": 37373087
     },
-    "data/things/rsv/fc/5de4aaf206b6c08c48e23f29.dat": {
-      "sha256": "fcbf41a099d3bd304acc298daea3325766ce6da2ec35036d60fa6b8ade7371e1",
+    "data/things/rsv/95/50b2a91d488b642649cb57db.dat": {
+      "sha256": "950eb12a76fed41c498acd45b55fc219d11250736c550d3d3c5f4392c152cb17",
       "size": 6187
     }
   }
