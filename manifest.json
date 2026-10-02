@@ -1,14 +1,14 @@
 {
-  "version": "2.0.1",
-  "timestamp": "2026-10-02T21:26:11Z",
+  "version": "2.0.2",
+  "timestamp": "2026-10-02T21:32:27Z",
   "base_url": "https://raw.githubusercontent.com/IsacViana/iBot_PKA/main/",
   "total_files": 5986,
   "total_size_mb": 796.17,
   "core": null,
   "launcher": {
-    "version": "2.0.1",
+    "version": "2.0.2",
     "filename": "Laucher_Nigthbot.exe",
-    "sha256": "f95cc97b153fc31609d8889b6a2873956ee2a1bd3705c00fc7f674274dc6670b",
+    "sha256": "1b30db8a6e4245159da96ebac6eed5e48b163a6b04bfb3e8961e850fd9bf60f8",
     "size": 3450368,
     "url": "https://raw.githubusercontent.com/IsacViana/iBot_PKA/main/Laucher_Nigthbot.exe"
   },
