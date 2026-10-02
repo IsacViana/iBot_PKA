@@ -1,0 +1,18 @@
+{
+  "alerts": {
+    "volume": 30,
+    "muted": false
+  },
+  "effects": {
+    "volume": 30,
+    "muted": false
+  },
+  "revive": {
+    "volume": 0,
+    "muted": false
+  },
+  "pokemon": {
+    "volume": 0,
+    "muted": false
+  }
+}

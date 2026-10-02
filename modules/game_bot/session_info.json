@@ -1,0 +1,27 @@
+{
+  "session_id": "a3629ae8088040abb63df9035cbd7f6a",
+  "account_username": "teste",
+  "supabase_url": "http://192.99.151.117",
+  "supabase_key": "nightbot-vps-key",
+  "launcher_version": "1.2.6",
+  "core_version": "1.2.6",
+  "integrity_status": "verified",
+  "sound_config": {
+    "alerts": {
+      "volume": 30,
+      "muted": false
+    },
+    "effects": {
+      "volume": 30,
+      "muted": false
+    },
+    "revive": {
+      "volume": 0,
+      "muted": false
+    },
+    "pokemon": {
+      "volume": 0,
+      "muted": false
+    }
+  }
+}
