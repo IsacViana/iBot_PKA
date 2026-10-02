@@ -65,6 +65,7 @@ build_dev_exe.bat
 license.dat
 modules/game_bot/license.dat
 modules/game_bot/session.key
+PUBLICAR_TESTE.bat
 
 # 6. Painel Admin (Exclusivo Administrador)
 Gerenciador.exe
@@ -86,3 +87,8 @@ server/
 
 teste_core/
 data/sounds/interface/tela/progamacompleto/runtime/
+
+# Executaveis antigos mantidos apenas na instalacao local; nao publicar.
+core.exe
+PokeAlliance_Launcher.exe
+launcher_pokealliance.exe

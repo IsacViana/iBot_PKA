@@ -1,22 +1,16 @@
 {
-  "version": "1.0.8",
-  "timestamp": "2026-10-02T09:06:09Z",
+  "version": "2.0.1",
+  "timestamp": "2026-10-02T21:26:11Z",
   "base_url": "https://raw.githubusercontent.com/IsacViana/iBot_PKA/main/",
   "total_files": 5986,
   "total_size_mb": 796.17,
-  "core": {
-    "version": "1.0.8",
-    "filename": "core.exe",
-    "sha256": "5120284b2da0ea86dbb0b89514ac9cda35cbb3fffa561d0502c6d8c86a231871",
-    "size": 1142272,
-    "url": "https://github.com/IsacViana/NightBot/raw/main/core.exe"
-  },
+  "core": null,
   "launcher": {
-    "version": "1.0.8",
-    "filename": "PokeAlliance_Launcher.exe",
-    "sha256": "32b580724520a049f288d5354676aa9f63c9c07598768cd27b24c53e60c0fcb6",
-    "size": 30208,
-    "url": "https://github.com/IsacViana/NightBot/raw/main/PokeAlliance_Launcher.exe"
+    "version": "2.0.1",
+    "filename": "Laucher_Nigthbot.exe",
+    "sha256": "f95cc97b153fc31609d8889b6a2873956ee2a1bd3705c00fc7f674274dc6670b",
+    "size": 3450368,
+    "url": "https://raw.githubusercontent.com/IsacViana/iBot_PKA/main/Laucher_Nigthbot.exe"
   },
   "files": {
     "PokeAlliance_dx.exe": {
