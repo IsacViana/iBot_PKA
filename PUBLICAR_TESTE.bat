@@ -5,6 +5,8 @@ set "PYTHONIOENCODING=utf-8"
 cd /d "%~dp0"
 
 set "PYTHON_BUILD=py -3.13"
+set "RELEASE_VERSION=%~1"
+if "%RELEASE_VERSION%"=="" set "RELEASE_VERSION=2.0.1"
 
 REM Localiza o Git
 if exist "C:\Users\Usuario\AppData\Local\vcpkg\downloads\tools\git-2.55.0.windows.3-windows\cmd\git.exe" (
@@ -20,12 +22,14 @@ echo    [AVISO] O repositorio de producao (NightBot) NAO sera alterado!
 echo =========================================================
 echo.
 
-echo [1/4] Compilando Core C++ Nativo (core_native.exe)...
-cd /d "%~dp0_FERRAMENTAS_DEV\native_core"
-set "ZIG_EXE=C:\Users\Usuario\AppData\Local\Nuitka\Nuitka\Cache\downloads\pip\private-49c291cb\Lib\site-packages\ziglang\zig.exe"
-"%ZIG_EXE%" c++ -target x86_64-windows -std=c++17 -O3 -Wno-nullability-completeness -Wl,--subsystem,windows gui_main.cpp -o core_native.exe -lwinhttp -luser32 -lkernel32 -lgdi32 -ladvapi32 -ldwmapi -lcomctl32 -lshell32 -lole32 -lbcrypt
-copy /y core_native.exe "..\..\core.exe" >nul
-cd /d "%~dp0"
+echo [1/4] Compilando Laucher_Nigthbot.exe C++ nativo...
+call "%~dp0_FERRAMENTAS_DEV\Laucher_Nigthbot\build_native.bat" --no-pause
+if %errorlevel% neq 0 (
+    echo [!] Erro ao compilar Laucher_Nigthbot.exe.
+    pause
+    exit /b 1
+)
+copy /y "%~dp0_FERRAMENTAS_DEV\Laucher_Nigthbot\Laucher_Nigthbot.exe" "%~dp0Laucher_Nigthbot.exe" >nul
 
 echo.
 echo [2/4] Sincronizando e criptografando o bot em shards rsv...
@@ -39,7 +43,7 @@ if %errorlevel% neq 0 (
 
 echo.
 echo [3/4] Gerando manifest.json apontando para o repositorio de TESTE (iBot_PKA)...
-%PYTHON_BUILD% _FERRAMENTAS_DEV\publish_update.py 1.0.8 https://raw.githubusercontent.com/IsacViana/iBot_PKA/main/
+%PYTHON_BUILD% _FERRAMENTAS_DEV\publish_update.py %RELEASE_VERSION% https://raw.githubusercontent.com/IsacViana/iBot_PKA/main/
 if %errorlevel% neq 0 (
     echo [!] Erro ao gerar manifest.json de teste.
     pause
@@ -50,11 +54,13 @@ echo.
 echo [4/4] Enviando atualizacao EXCLUSIVAMENTE para o remote 'test' (iBot_PKA)...
 git config user.name "IsacViana"
 git config user.email "isacviana@users.noreply.github.com"
-git add -- core.exe manifest.json modules data
+git rm --cached --ignore-unmatch core.exe >nul 2>&1
+git rm --ignore-unmatch PokeAlliance_Launcher.exe launcher_pokealliance.exe >nul 2>&1
+git add -- Laucher_Nigthbot.exe manifest.json modules data
 for %%F in (PokeAlliance_dx.exe PokeAlliance_gl.exe d3dcompiler_47.dll libEGL.dll libGLESv2.dll) do if exist "%%F" git add -- "%%F"
 
-git commit -m "Test release: protected bot runtime without plaintext code" >nul 2>&1
-git -c credential.helper= -c credential.helper=manager push -f -u test main
+git commit -m "Release %RELEASE_VERSION%: NIGHT Bot native launcher" >nul 2>&1
+git -c credential.helper= -c credential.helper=manager push -u test main
 
 if %errorlevel% neq 0 (
     echo.
