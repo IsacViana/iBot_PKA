@@ -1,6 +1,6 @@
 {
   "version": "2.0.2",
-  "timestamp": "2026-10-03T01:43:31Z",
+  "timestamp": "2026-10-03T01:46:37Z",
   "base_url": "https://raw.githubusercontent.com/IsacViana/iBot_PKA/main/",
   "total_files": 5986,
   "total_size_mb": 797.70,
@@ -8,10 +8,12 @@
   "launcher": {
     "version": "2.0.2",
     "filename": "Laucher_Nigthbot.exe",
-    "sha256": "f81c5f9c3df198d408e3428dbcc2ee1abd62194a685bbd695a5fc48af9428ce0",
-    "size": 3594752,
+    "sha256": "389262cbc7d6c83948991bba668916a02bc6e2d2cfdb92d01f29b5d9f54b385d",
+    "size": 3596800,
     "signature_algorithm": "RSA-3072-SHA256-PKCS1-v1_5",
-    "signature": "jg7sMwLz9Leq3u8u3GP5QBo+cMX3tbY80KRfDaI6a0uXxHYXTsmWfgWrdDrXmfJeTal6wYIyMaQmkcxFp/IZAwtnJG0lJ9V88XfPivRArkN/JNEGaftGFMTqHzpO3f49LDxD2ZrGtNcBZY4a3aUyVSMg8YoOTgIpPY6ZIFu7tjMJnjX5zX/Ye2J7ikVMD5bRspaDDm4yB8JDAyZQs1Zm4uqeq2Pid1SXcP6wmokkHQuqy0F9AyYo30dWCI2DIGNePWJVWFm5pzcZfr0tdGF++rDslPbJSfyT5SJj6/98dzIWENFXS/SmtOJYcHUIU+hGjL7VpHYgVlW8OVuHXmdWP0ytMpamJ0ixZecYJ2PY97J7hUaC1qGyuu70nA2yGIK2PxnwlWFi6qAZlsmGy59WL3vFlvEabhnDzZhs1O/gR/cSuG2/2Dn4aMrvZ5aQmmsFWuEC47tsMHsSLe0O7Dc6xCGLvyXoVfxY9iu1PKXc1VBtaLJoiWZbwEFrjy/+s4P6",
+    "signature": "fhBTlSMyaN5AOSCK6yvTxwDAsJ25muHaK38BODeQFLTgAHMRm1LMH4Ot+iFuLGznfM0OydoZexkAN3Tnb3Wy66G2krDQF766oop5Ezrx5bbzWHVOmUFZDjDU83sYdBk3aKCThDSt89jaofkBJD38ZZw4UbU3DdtP2cJjiss6btlmX8SmyBfDsIAEbyC9O1L3+JReQQFe5tPds9OiPtgf6f32UaCrc+5lpCs93O7ZABFvETLz+Kp4KzI5UdwwHXopjRy4lIbzBzeUWys1pj4wBfRwuyU83JI6xdB9QiI15c1sSxzd06fBr4kCh6j+wE1SjlZxbk9RhszLMDw6U8XS1xmvgdC+Cudtm3HgjB6cTzXCTCxKWmsZvOave//szkeGiwy+o8ZI0h2EJEPy1jCBYl0wSVgxSrUKyKyc8bJm+Q9ev/Y4EFGoBk3r1b0xeM0Tnnsno5TiiFOeeoiW/+haurlJqPIN9jkSakNqxOsMobJq8ccq5CRnnao5lZH2aKRr",
+    "manifest_signature_algorithm": "RSA-3072-SHA256-PKCS1-v1_5",
+    "manifest_signature": "REdg6h8kX2l1eEsBFypLS7zd44a7C4RdmiD3WtgNXe6olryFYwPt0z78QKA2ZhhCw1j36L1sAzPqXn54wqujxgF4uHiyBNyeCdVXP964ZD3S/QlWhVXIvqCuuQqgOg4+9sXU9EY3rMpfzHmdwl9gPvYmXqmsHaQrfdmEqYWq6KDD2F4f3mxwn4BStarOIj04UEM75+qvsEO9cU+CibEcKQle8PIDJyNfSlqZR1IrqNit9akhwiSF7fdzUiX8hx9TaghkBf4gVR6p76th2v2yDOoqL+TzZcNEMxATUmbQ32h1cox5dCQB5B29vPNfYMxN+9zFC1lWlkXNpTKCuL1ZqvudJwX/B+VTufeqp0RDlscrGAWXDQgB15bbx2BjcfCJwzxKZiQsqEw59EvgJ5HuwTJ5lpdb8pK20y7BYn2inZMcOv8Ai0gG2oe29AOPT/8Isopuh9FKkEnNU9RHNytby3yDjTbDRkSRwpFzSBt8DzQhd8nnZYROMsvcpYDY2NZG",
     "url": "https://raw.githubusercontent.com/IsacViana/iBot_PKA/main/Laucher_Nigthbot.exe"
   },
   "files": {
