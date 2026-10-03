@@ -1,6 +1,6 @@
 {
   "version": "2.0.2",
-  "timestamp": "2026-10-03T01:28:17Z",
+  "timestamp": "2026-10-03T01:43:31Z",
   "base_url": "https://raw.githubusercontent.com/IsacViana/iBot_PKA/main/",
   "total_files": 5986,
   "total_size_mb": 797.70,
@@ -8,8 +8,10 @@
   "launcher": {
     "version": "2.0.2",
     "filename": "Laucher_Nigthbot.exe",
-    "sha256": "112dca688365e01538cff79f025be0b56c3117eefa76acae3b9c5d6835916cb7",
-    "size": 3580928,
+    "sha256": "f81c5f9c3df198d408e3428dbcc2ee1abd62194a685bbd695a5fc48af9428ce0",
+    "size": 3594752,
+    "signature_algorithm": "RSA-3072-SHA256-PKCS1-v1_5",
+    "signature": "jg7sMwLz9Leq3u8u3GP5QBo+cMX3tbY80KRfDaI6a0uXxHYXTsmWfgWrdDrXmfJeTal6wYIyMaQmkcxFp/IZAwtnJG0lJ9V88XfPivRArkN/JNEGaftGFMTqHzpO3f49LDxD2ZrGtNcBZY4a3aUyVSMg8YoOTgIpPY6ZIFu7tjMJnjX5zX/Ye2J7ikVMD5bRspaDDm4yB8JDAyZQs1Zm4uqeq2Pid1SXcP6wmokkHQuqy0F9AyYo30dWCI2DIGNePWJVWFm5pzcZfr0tdGF++rDslPbJSfyT5SJj6/98dzIWENFXS/SmtOJYcHUIU+hGjL7VpHYgVlW8OVuHXmdWP0ytMpamJ0ixZecYJ2PY97J7hUaC1qGyuu70nA2yGIK2PxnwlWFi6qAZlsmGy59WL3vFlvEabhnDzZhs1O/gR/cSuG2/2Dn4aMrvZ5aQmmsFWuEC47tsMHsSLe0O7Dc6xCGLvyXoVfxY9iu1PKXc1VBtaLJoiWZbwEFrjy/+s4P6",
     "url": "https://raw.githubusercontent.com/IsacViana/iBot_PKA/main/Laucher_Nigthbot.exe"
   },
   "files": {
